@@ -23,12 +23,8 @@ Frameworks: LangChain
 
 
 🧠 Architecture Overview
-User Query
-   ↓
-Retriever (Pinecone)
-   ↓
-Top-K Relevant Chunks
-   ↓
-LLM (Gemini)
-   ↓
+User Query->
+Retriever (Pinecone)->
+Top-K Relevant Chunks->
+LLM (Gemini)->
 Final Answer
